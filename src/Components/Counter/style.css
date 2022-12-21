@@ -1,0 +1,32 @@
+.co-container{
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem;
+    align-items: center;
+    padding-left: 250px;
+}
+
+.co-num,
+.co-inc,
+.co-dec{
+    font-size: 2rem;
+}
+
+.co-num{
+    margin-right: 2rem;
+}
+
+.co-inc{
+    background-color: #49c78e;
+    color: #fff;
+    border-radius: 0.2rem;
+    width: 3rem;
+    border: none;
+}
+.co-dec{
+    background-color: #f24667;
+    color: #fff;
+    border-radius: 0.2rem;
+    width: 3rem;
+    border: none;
+}
