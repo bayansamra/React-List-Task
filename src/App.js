@@ -21,7 +21,8 @@ class App extends Component {
         return {...counter, count:counter.count + counter.steps}
       }
       return counter;
-    })})
+    })
+  })
   }
 
   OnDecrease = (id)=>{
@@ -32,7 +33,8 @@ class App extends Component {
         } 
       }
       return counter;
-    })})
+    })
+  })
   }
   
   render(){
@@ -44,7 +46,7 @@ class App extends Component {
             OnIncrease={this.OnIncrease} 
             OnDecrease={this.OnDecrease} />
           })}
-          <h3>Total amount: {this.state.counters.reduce(
+          <h3>Total counter : {this.state.counters.reduce(
             (accumulator, currentValue) => accumulator + currentValue.count,0
             )}
           </h3>
